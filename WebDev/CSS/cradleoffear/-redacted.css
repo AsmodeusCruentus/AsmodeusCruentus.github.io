@@ -1,0 +1,8 @@
+body {
+    background-color: black;
+    max-width: 80em;
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid #FF542F;
+    color: red;
+}

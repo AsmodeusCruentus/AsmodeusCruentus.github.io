@@ -1,77 +1,41 @@
-h1 {
-    margin: 0;
-    padding: 0px;
-    line-height: 1.5;
-    color: red;
+body {background-color: black;
+    max-width: 80em;
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid #FF542F;
+    color: red;}
+h1 {color: red;
     font-family: "guttural", sans-serif;
     font-size: 220%;
-    font-weight: lighter;
-}
-h2 {
-    margin: 0;
-    padding: 0px;
-    line-height: 1.5;
-    color: red;
-    font-size: 150%;
-}
-h3 {
-    margin: 0;
-    padding: 0px;
-    line-height: 1.5;
-    color: red;
-    font-size: 130%;
-}
-h4 {
-    margin: 0;
-    padding: 0px;
-    line-height: 1.5;
-    color: red;
-    font-size: 100%;
-}
-h5 {
-    margin: 0;
-    padding: 0px;
-    line-height: 1.5;
-    color: red;
-    font-size: 70%;
-}
-h6 {
-    margin: 0;
-    padding: 0px;
-    line-height: 1.5;
-    color: red;
-    font-size: 50%;
-}
-p {
-    color:red
-}
-em {
-    color: red;
-}
-strong {
-    color: red;
-}
-sub {
-    color: red;
-}
-sup {
-    color: red;
-}
-ul {
-    color: red;
-}
-ol {
-    color: red;
-}
-li {
-    color: red;
-}
-pre {
-    color: red;
-}
-hr {
-    color: red;
-}
-
+    font-weight: lighter;}
+h2,strong {color: red;
+    font-size: 115%;}
+h3 {color: red;
+    font-size: 130%;}
+h4 {color: red;
+    font-size: 100%;}
+h5 {color: red;
+    font-size: 70%;}
+h6 {color: red;
+    font-size: 50%;}
+a:hover{ background-color: rgb(148, 205, 255);}
+p {color:red;}
+em {color: red;}
+sub {color: red;}
+sup {color: red;}
+ul {color: red;}
+ol {color: red;}
+li {color: red;}
+pre {color: red;}
+hr {color: red;}
+.banner-container {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+/* EM = Italic -- STRONG = Bold */
 /* h1, h2, h3, h4, h5, h6, p, em, strong, sub, sup, ul, ol, li, pre, br, hr {
     color: red; */
