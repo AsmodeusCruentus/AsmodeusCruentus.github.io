@@ -1,0 +1,77 @@
+h1 {
+    margin: 0;
+    padding: 0px;
+    line-height: 1.5;
+    color: red;
+    font-family: "guttural", sans-serif;
+    font-size: 220%;
+    font-weight: lighter;
+}
+h2 {
+    margin: 0;
+    padding: 0px;
+    line-height: 1.5;
+    color: red;
+    font-size: 150%;
+}
+h3 {
+    margin: 0;
+    padding: 0px;
+    line-height: 1.5;
+    color: red;
+    font-size: 130%;
+}
+h4 {
+    margin: 0;
+    padding: 0px;
+    line-height: 1.5;
+    color: red;
+    font-size: 100%;
+}
+h5 {
+    margin: 0;
+    padding: 0px;
+    line-height: 1.5;
+    color: red;
+    font-size: 70%;
+}
+h6 {
+    margin: 0;
+    padding: 0px;
+    line-height: 1.5;
+    color: red;
+    font-size: 50%;
+}
+p {
+    color:red
+}
+em {
+    color: red;
+}
+strong {
+    color: red;
+}
+sub {
+    color: red;
+}
+sup {
+    color: red;
+}
+ul {
+    color: red;
+}
+ol {
+    color: red;
+}
+li {
+    color: red;
+}
+pre {
+    color: red;
+}
+hr {
+    color: red;
+}
+
+/* h1, h2, h3, h4, h5, h6, p, em, strong, sub, sup, ul, ol, li, pre, br, hr {
+    color: red; */
