@@ -26,8 +26,8 @@ sup {color: red;}
 ul {color: red;}
 ol {color: red;}
 li {color: red;}
-pre {color: red;}
-hr {color: red;}
+pre {color: yellow;}
+hr {display: none;}
 .banner-container {
     background-size: cover;
     background-position: center;
