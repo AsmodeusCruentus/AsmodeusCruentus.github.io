@@ -20,7 +20,7 @@ h6 {color: red;
     font-size: 50%;}
 a:hover{ background-color: rgb(148, 205, 255);}
 p {color:red;}
-em {color: red;}
+em {color: red;text-decoration: underline;}
 sub {color: red;}
 sup {color: red;}
 ul {color: red;}
