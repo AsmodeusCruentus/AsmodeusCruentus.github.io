@@ -1,45 +1,245 @@
-div {border: 1px solid;}
-.sectioncontainer{grid-area: "m m a1 a2";}
-.navcontainer{grid-area: "nl1 nl2 nl3 nl4 nl5 nl6 nl7 nl8 nl9 nl10";text-align: center;}
-.footercontainer{grid-area: "fl1 fl2 fl3 fl4 fl5 fl6 fl7 fl8 fl9 fl10";text-align: center;}
-.main1{ grid-area: m;}
-.aside1{grid-area: a1;}
-.aside2{grid-area: a2;}
-.nl1{grid-area: nl1;}.nl2{grid-area: nl2;}.nl3{grid-area: nl3;}.nl4{grid-area: nl4;}.nl5{grid-area: nl5;}
-.nl6{grid-area: nl6;}.nl7{grid-area: nl7;}.nl8{grid-area: nl8;}.nl9{grid-area: nl9;}.nl10{grid-area: nl10;}
-.fl1{grid-area: fl1;}.fl2{grid-area: fl2;}.fl3{grid-area: fl3;}.fl4{grid-area: fl4;}.fl5{grid-area: fl5;}
-.fl6{grid-area: fl6;}.fl7{grid-area: fl7;}.fl8{grid-area: fl8;}.fl9{grid-area: fl9;}.fl10{grid-area: fl10;}
+div {
+    border: 1px solid;
+}
 
-body{margin: 0;pad: 0;font-family: arial, sans-serif;}
+.sectioncontainer{
+    grid-area: 
+    "m m a1 a2";
+}
 
-header {background-color: #333;color: #fff;padding: 1em;}
+.navcontainer{
+    grid-area: 
+    "nl1 nl2 nl3 nl4 nl5 nl6 nl7 nl8 nl9 nl10";text-align: center;
+}
 
-nav ul {list-style: none;margin: 0;padding: 0;display: flex;flex-wrap: wrap;justify-content: space-between;}
-nav li {margin: 0;padding: 0;align-content: center;list-style-type: none;padding-top: 20px;padding-bottom: 20px;}
-nav a {color: #fff;text-decoration: none;padding: 0.5em;transition: background-color 0.3s ease-in-out;}
-nav a:hover {background-color: #555;}
+.footercontainer{
+    grid-area: 
+    "fl1 fl2 fl3 fl4 fl5 fl6 fl7 fl8 fl9 fl10";text-align: center;
+}
 
-main {max-width: 960px;margin: 0 auto;padding: 1em;}
+.main1{
+    grid-area: m;
+}
 
-h1, h2, h3 {color: #333;margin-top: 0;}
-h1 {font-size: 2em;}
-h2 {font-size: 1.5em;}
-h3 {font-size: 1.2em;}
+.aside1{
+    grid-area: a1;
+}
 
-ul {margin: 0;padding: 0;}
+.aside2{
+    grid-area: a2;
+}
 
-footer {background-color: #333;color: #fff;padding: 1em;text-align: center;}
-footer ul {list-style: none;margin: 0;padding: 0;display: flex;flex-wrap: wrap;justify-content: space-between;}
-footer li {margin: 0;padding: 0;align-content: center;list-style-type: none;padding-top: 20px;padding-bottom: 20px;}
-footer a {color: #fff;text-decoration: none;padding: 0.5em;transition: background-color 0.3s ease-in-out;}
-footer a:hover {background-color: #555;}
+.nl1{grid-area: nl1;
+}
+
+.nl2{grid-area: nl2;
+}
+
+.nl3{grid-area: nl3;
+}
+
+.nl4{grid-area: nl4;
+}
+
+.nl5{grid-area: nl5;
+}
+
+.nl6{grid-area: nl6;
+}
+
+.nl7{grid-area: nl7;
+}
+
+.nl8{grid-area: nl8;
+}
+
+.nl9{grid-area: nl9;
+}
+
+.nl10{grid-area: nl10;
+}
+
+.fl1{grid-area: fl1;
+}
+
+.fl2{grid-area: fl2;
+}
+
+.fl3{grid-area: fl3;
+}
+
+.fl4{grid-area: fl4;
+}
+
+.fl5{grid-area: fl5;
+}
+
+.fl6{grid-area: fl6;
+}
+
+.fl7{grid-area: fl7;
+}
+
+.fl8{grid-area: fl8;
+}
+
+.fl9{grid-area: fl9;
+}
+
+.fl10{grid-area: fl10;
+}
+
+body{
+    margin: 0;
+    pad: 0;
+    font-family: arial, sans-serif;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer li {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    background-color: #555;
+}
 
 /**** Brealpoints ****/
 
-@media screen and (max-width: 767px) {.sectioncontainer{display: grid;grid-template-areas: "m"   "a1"   "a2";}.navcontainer{display: grid; grid-template-areas: "nl1" "nl2" "nl3";}.footercontainer{display: grid;grid-template-areas: "fl1" "fl2" "fl3";}}
+@media screen and (max-width: 767px) {
+    .sectioncontainer{
+        display: grid;
+        grid-template-areas: "m"   "a1"   "a2";
+    }
+    .navcontainer{
+        display: grid; 
+        grid-template-areas: "nl1" "nl2" "nl3";
+    }
+    .footercontainer{
+        display: grid;
+        grid-template-areas: "fl1" "fl2" "fl3";
+    }
+}
 
-@media screen and (min-width: 768px) {.sectioncontainer{display: grid;grid-template-areas: "m m"    "a1 a2";}.navcontainer{display: grid; grid-template-areas: "nl1 nl2 nl3";}.footercontainer{display: grid;grid-template-areas: "fl1 fl2 fl3";}}
+@media screen and (min-width: 768px) {
+    .sectioncontainer{
+        display: grid;
+        grid-template-areas: "m m"    "a1 a2";
+    }
+    .navcontainer{
+        display: grid; 
+        grid-template-areas: "nl1 nl2 nl3";
+    }
+    .footercontainer{
+        display: grid;
+        grid-template-areas: "fl1 fl2 fl3";
+    }
+}
 
-@media screen and (min-width: 1200px) {.sectioncontainer{display: grid;grid-template-areas: "m m a1 a2";}.navcontainer{display: grid; grid-template-areas: "nl1 nl2 nl3";}.footercontainer{display: grid;grid-template-areas: "fl1 fl2 fl3";}}
+@media screen and (min-width: 1200px) {
+    .sectioncontainer{
+        display: grid;
+        grid-template-areas: "m m a1 a2";
+    }
+    .navcontainer{
+        display: grid; 
+        grid-template-areas: "nl1 nl2 nl3";
+    }
+    .footercontainer{
+        display: grid;
+        grid-template-areas: "fl1 fl2 fl3";
+    }
+}
 
   
