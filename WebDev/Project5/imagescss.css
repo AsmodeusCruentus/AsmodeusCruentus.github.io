@@ -2,6 +2,9 @@ img { max-width: 100%;
     height: auto;
 }
 
+body{ background-color: grey;
+}
+
 .multipleimages{
     display: grid;
     grid-gap:15px;
