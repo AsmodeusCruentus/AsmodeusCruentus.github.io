@@ -58,6 +58,10 @@
 .fl5{grid-area: fl5;
 }
 
+img { max-width: 100%;
+  height: auto;
+}
+
 body{
   margin: 0;
   pad: 0;

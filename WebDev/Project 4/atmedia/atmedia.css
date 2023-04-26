@@ -89,6 +89,10 @@ div {
 .fl10{grid-area: fl10;
 }
 
+img { max-width: 100%;
+    height: auto;
+}
+
 body{
     margin: 0;
     pad: 0;
