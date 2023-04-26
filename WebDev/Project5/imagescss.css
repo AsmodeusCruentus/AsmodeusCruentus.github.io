@@ -2,9 +2,14 @@ img { max-width: 100%;
     height: auto;
 }
 
-body{ background-color: grey;
+body{ background-color: rgb(26, 25, 25);
 }
-
+H1{
+    color: red;
+}
+p{
+    color: red;
+}
 .multipleimages{
     display: grid;
     grid-gap:15px;
