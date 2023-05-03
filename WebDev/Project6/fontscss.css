@@ -1,9 +1,13 @@
 img { max-width: 100%;
     height: auto;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{ 
     max-width: 1200px;
     background-color: rgb(26, 25, 25);
     margin: auto;
 }
+h2{color: red;}
+h3{color: red;}
