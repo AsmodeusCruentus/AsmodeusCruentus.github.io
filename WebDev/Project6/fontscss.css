@@ -11,3 +11,6 @@ body{
 }
 h2{color: red;}
 h3{color: red;}
+footer{
+    padding-bottom: 15px;
+}
