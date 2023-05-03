@@ -1,11 +1,11 @@
 .myBtn{
-    background: red;
+    background: rgb(255, 255, 255);
     width: 100px;
     height: 100px;
 
     position: fixed;
     bottom: 100px;
-    right: -50%;
+    right:  50%;
     border-radius: 50%;
     /*  */
 }
