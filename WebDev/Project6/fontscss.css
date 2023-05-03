@@ -5,34 +5,5 @@ img { max-width: 100%;
 body{ 
     max-width: 1200px;
     background-color: rgb(26, 25, 25);
+    margin: auto;
 }
-H1{
-    color: red;
-}
-p{
-    color: red;
-}
-.multipleimages{
-    display: grid;
-    grid-gap:15px;
-    grid-template-columns: 1fr;
-}
-
-@media screen and (min-width: 480px){
-    .multipleimages{
-        display: grid;
-        grid-gap: 15px;
-        grid-template-columns: 1fr 1fr;
-    
-    }
-}
-
-@media screen and (min-width: 960px){
-    .multipleimages{
-        display: grid;
-        grid-gap: 15px;
-        grid-template-columns: 1fr 1fr 1fr;
-    
-    }
-}
-
