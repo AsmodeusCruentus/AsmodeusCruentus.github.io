@@ -9,8 +9,40 @@ body{
     background-color: rgb(26, 25, 25);
     margin: auto;
 }
-h2{color: red;}
-h3{color: red;}
+
+h2{
+    margin: 0;
+    padding: 1px;
+    line-height: 1;
+    color: red;
+    text-shadow: 
+        -1px -1px 0 red,
+        1px -1px 0 red,
+        -1px -1px 0 red,
+        1px -1px 0 red;
+    font-size: 300%;
+    font-weight: lighter;
+}
+
+h3{
+    color: red;
+}
+
 footer{
     padding-bottom: 15px;
+}
+
+h5 {
+    margin: 0;
+    padding: 1px;
+    line-height: 1;
+    color: red;
+    text-shadow: 
+        -1px -1px 0 red,
+        1px -1px 0 red,
+        -1px -1px 0 red,
+        1px -1px 0 red;
+    font-family: "guttural";
+    font-size: 300%;
+    font-weight: lighter;
 }
