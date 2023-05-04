@@ -78,8 +78,9 @@ h5 {
     font-weight: lighter;
 }
 
-
+/*
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Roboto+Condensed:wght@300&family=Ysabeau:wght@300&display=swap');
+*/
 .p1{
     font-family: 'Merriweather', serif;
 }
@@ -96,3 +97,6 @@ h5 {
     font-family: 'Ysabeau', sans-serif;
 }
 
+.p5{
+    font-family: 'Water Brush', cursive;
+}
