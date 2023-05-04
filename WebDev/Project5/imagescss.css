@@ -5,6 +5,7 @@ img { max-width: 100%;
 body{ 
     max-width: 1200px;
     background-color: rgb(26, 25, 25);
+    margin: auto;
 }
 H1{
     color: red;
