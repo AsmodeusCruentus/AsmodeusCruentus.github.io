@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/WebDev/Project7/FinalCSS.css">
+    <link rel="stylesheet" type="text/css" href="/WebDev/Project7/TableCSS.css">
+    <title>Document</title>
+</head>
+<header>
+    <nav>
+
+    </nav>
+</header>
+<body>
+    <form>
+        <fieldset>
+        <legend>Soul Contract - Culth of Cthulhu</legend>
+        <!---------------------------------------------------------------------------->
+        <label> Name :</label><br>
+            <input type="Name" placeholder="Input your Name here." required> <br>
+        <!---------------------------------------------------------------------------->
+        <label> Email :</label><br>
+            <input type="Email" placeholder="Input your Email here." required> <br>
+        <!---------------------------------------------------------------------------->
+        <label> Password :</label><br>
+            <input type="password" placeholder="Input your Password here." required> <br><br>
+        <!---------------------------------------------------------------------------->
+        <br><br>
+
+
+        
+        
+        
+        
+      <div class="radio-item">
+        <label for="ritema">Be the Sacrificer</label>
+          <input type="radio" id="ritema" name="ritem" value="option1" onclick="hideSecondaryDropdown()">
+      </div>
+      <br>
+      <br>
+      or
+      <br>
+      
+      <div class="radio-item">
+        <label for="ritemb">Be the Sacrifice</label>
+          <input type="radio" id="ritemb" name="ritem" value="option2" onclick="showSecondaryDropdown()">
+          <div id="secondary-dropdown" style="display:none;">
+              <select>
+                  <option>Succumb to Madness</option>
+                  <option>Flayed for the Dreamer</option>
+                  <option>Consumed by wylebeasts</option>
+              </select>
+          </div>
+      </div>
+      
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        <!--------------------------------------------------------------------------
+        <label>Be the Sacrificer</label>
+            <input type="radio" name="option" value="option1" onclick="hideSecondaryDropdown()">
+            <br>
+            or
+            <br>
+        <label>Be the Sacrifice</label>
+            <input type="radio" name="option" value="option2" onclick="showSecondaryDropdown()">
+          <div id="secondary-dropdown" style="display:none;">
+            <select>
+              <option>Succumb to Madness</option>
+              <option>Flayed for the Dreamer</option>
+              <option>Consumed by wylebeasts</option>
+            </select>
+          </div>
+        ------------------------------------------------------------------------->
+
+
+
+
+         <!----------------------------------------------------------------------------> 
+          <script>
+            function showSecondaryDropdown() {
+              document.getElementById("secondary-dropdown").style.display = "block";
+            }
+            
+            function hideSecondaryDropdown() {
+              document.getElementById("secondary-dropdown").style.display = "none";
+            }
+          </script><br><br>
+        <!---------------------------------------------------------------------------->  
+
+
+
+
+
+
+        <!---------------------------------------------------------------------------->
+        <label> A Message to the Dreamer</label><br>
+        <textarea name="" id="" cols="30" rows="5" required></textarea><br><br>
+        <!---------------------------------------------------------------------------->
+
+
+
+
+
+
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Dimension / Planet</th>
+                <th>Afilliation</th>
+                <th>Life Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Name">Asmodeus Cruentus</td>
+                <td data-label="Dimension / Planet">Earth</td>
+                <td data-label="Afilliation">High-Priest of the Dreamer</td>
+                <td data-label="Life Status">Alive</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Lady Melany</td>
+                <td data-label="Dimension / Planet">Earth</td>
+                <td data-label="Afilliation">Wife of High-Priest</td>
+                <td data-label="Life Status">Alive</td>
+              </tr>
+              <tr>
+                <td data-label="Name" data-label="">Aría Lív</td>
+                <td data-label="Dimension / Planet">Earth</td>
+                <td data-label="Affilliation">Daughter of a High-Priest</td>
+                <td data-label="Life Status">Alive</td>
+              </tr>
+              <tr>
+                <td data-label="Name" data-label="">Ástrós Alexstrasa</td>
+                <td data-label="Dimension / Planet">Earth</td>
+                <td data-label="Affilliation">Daughter of a High-Priest</td>
+                <td data-label="Life Status">Alive</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Hrafntýr Myrki</td>
+                <td data-label="Dimension / Planet">Earth</td>
+                <td data-label="Affilliation">Son of a High-Priest</td>
+                <td data-label="Life Status">Alive</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Bambi Þór</td>
+                <td data-label="Dimension / Planet">Earth</td>
+                <td data-label="Affilliation">Son of a High-Priest</td>
+                <td data-label="Life Status">Alive</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+
+
+
+
+
+
+
+
+
+          
+        </fieldset>
+    </form>
+</body>
+<footer>
+
+</footer>
+</html>
