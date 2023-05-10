@@ -14,55 +14,82 @@
     </nav>
 </header>
 <body>
-    <form>
-        <fieldset>
-        <legend>Soul Contract - Culth of Cthulhu</legend>
+  <form>
+    <fieldset>
+    <legend>Soul Contract - Cult of Cthulhu</legend>
+    
+    <label> Name :</label><br>
+    <input type="text" id="nameInput" placeholder="Input Name here." required> <br>
+    
+    <label> Dimension / Planet :</label><br>
+    <input type="email" id="dimensionInput" placeholder="Input Dimension / Planet here." required> <br>
+    
+    <label> Affiliation :</label><br>
+    <input type="text" id="affiliationInput" placeholder="Input Affiliation here." required> <br><br>
+    
+    <label> Life Status :</label><br>
+    <input type="text" id="lifeStatusInput" placeholder="Input Life Status here." required> <br><br>
+    
+    <br>
+    <button type="button" onclick="addTableRow()">Sign Here</button>
+    <br><br><br>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Dimension / Planet</th>
+                <th>Affiliation</th>
+                <th>Life Status</th>
+            </tr>
+        </thead>
+        <tbody id="dataTableBody">
+            <tr>
+                <td data-label="Name">Asmodeus Cruentus</td>
+                <td data-label="Dimension / Planet">Earth</td>
+                <td data-label="Affiliation">High-Priest of the Dreamer</td>
+                <td data-label="Life Status">Alive</td>
+            </tr>
+            <tr>
+                <td data-label="Name">Lady Melany</td>
+                <td data-label="Dimension / Planet">Earth</td>
+                <td data-label="Affiliation">Wife of High-Priest</td>
+                <td data-label="Life Status">Alive</td>
+            </tr>
+            <tr>
+                <td data-label="Name">Aría Lív</td>
+                <td data-label="Dimension / Planet">Earth</td>
+                <td data-label="Affiliation">Daughter of a High-Priest</td>
+                <td data-label="Life Status">Alive</td>
+            </tr>
+            <tr>
+                <td data-label="Name">Ástrós Alexstrasa</td>
+                <td data-label="Dimension / Planet">Earth</td>
+                <td data-label="Affiliation">Daughter of a High-Priest</td>
+                <td data-label="Life Status">Alive</td>
+            </tr>
+            <tr>
+              <td data-label="Name">Hrafntýr Myrki</td>
+              <td data-label="Dimension / Planet">Earth</td>
+              <td data-label="Affiliation">Son of a High-Priest</td>
+              <td data-label="Life Status">Alive</td>
+            </tr>
+            <tr>
+              <td data-label="Name">Bambi Þór</td>
+              <td data-label="Dimension / Planet">Earth</td>
+              <td data-label="Affiliation">Son of a High-Priest</td>
+              <td data-label="Life Status">Alive</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
         <!---------------------------------------------------------------------------->
-        <label> Name :</label><br>
-            <input type="Name" placeholder="Input your Name here." required> <br>
+        <label> A Message to the Dreamer</label><br>
+        <textarea name="" id="" cols="30" rows="5" required></textarea><br><br>
         <!---------------------------------------------------------------------------->
-        <label> Email :</label><br>
-            <input type="Email" placeholder="Input your Email here." required> <br>
-        <!---------------------------------------------------------------------------->
-        <label> Password :</label><br>
-            <input type="password" placeholder="Input your Password here." required> <br><br>
-        <!---------------------------------------------------------------------------->
-        <br><br>
-
-
-        
-        
-        
-        
-      <div class="radio-item">
-        <label for="ritema">Be the Sacrificer</label>
-          <input type="radio" id="ritema" name="ritem" value="option1" onclick="hideSecondaryDropdown()">
-      </div>
-      <br>
-      <br>
-      or
-      <br>
-      
-      <div class="radio-item">
-        <label for="ritemb">Be the Sacrifice</label>
-          <input type="radio" id="ritemb" name="ritem" value="option2" onclick="showSecondaryDropdown()">
-          <div id="secondary-dropdown" style="display:none;">
-              <select>
-                  <option>Succumb to Madness</option>
-                  <option>Flayed for the Dreamer</option>
-                  <option>Consumed by wylebeasts</option>
-              </select>
-          </div>
-      </div>
-      
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-        <!--------------------------------------------------------------------------
+        <!----------------------------------------------------------------------------> 
         <label>Be the Sacrificer</label>
-            <input type="radio" name="option" value="option1" onclick="hideSecondaryDropdown()">
+            <input type="radio" name="option" value="option1" checked onclick="hideSecondaryDropdown()">
             <br>
             or
             <br>
@@ -75,102 +102,57 @@
               <option>Consumed by wylebeasts</option>
             </select>
           </div>
-        ------------------------------------------------------------------------->
-
-
-
-
-         <!----------------------------------------------------------------------------> 
+          <br><br>
+          <button onclick="refreshPage()">Relinquish Life</button>
           <script>
-            function showSecondaryDropdown() {
-              document.getElementById("secondary-dropdown").style.display = "block";
+            function refreshPage() {
+              location.reload();
             }
-            
-            function hideSecondaryDropdown() {
-              document.getElementById("secondary-dropdown").style.display = "none";
-            }
-          </script><br><br>
-        <!---------------------------------------------------------------------------->  
-
-
-
-
-
-
-        <!---------------------------------------------------------------------------->
-        <label> A Message to the Dreamer</label><br>
-        <textarea name="" id="" cols="30" rows="5" required></textarea><br><br>
-        <!---------------------------------------------------------------------------->
-
-
-
-
-
-
-          <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Dimension / Planet</th>
-                <th>Afilliation</th>
-                <th>Life Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td data-label="Name">Asmodeus Cruentus</td>
-                <td data-label="Dimension / Planet">Earth</td>
-                <td data-label="Afilliation">High-Priest of the Dreamer</td>
-                <td data-label="Life Status">Alive</td>
-              </tr>
-              <tr>
-                <td data-label="Name">Lady Melany</td>
-                <td data-label="Dimension / Planet">Earth</td>
-                <td data-label="Afilliation">Wife of High-Priest</td>
-                <td data-label="Life Status">Alive</td>
-              </tr>
-              <tr>
-                <td data-label="Name" data-label="">Aría Lív</td>
-                <td data-label="Dimension / Planet">Earth</td>
-                <td data-label="Affilliation">Daughter of a High-Priest</td>
-                <td data-label="Life Status">Alive</td>
-              </tr>
-              <tr>
-                <td data-label="Name" data-label="">Ástrós Alexstrasa</td>
-                <td data-label="Dimension / Planet">Earth</td>
-                <td data-label="Affilliation">Daughter of a High-Priest</td>
-                <td data-label="Life Status">Alive</td>
-              </tr>
-              <tr>
-                <td data-label="Name">Hrafntýr Myrki</td>
-                <td data-label="Dimension / Planet">Earth</td>
-                <td data-label="Affilliation">Son of a High-Priest</td>
-                <td data-label="Life Status">Alive</td>
-              </tr>
-              <tr>
-                <td data-label="Name">Bambi Þór</td>
-                <td data-label="Dimension / Planet">Earth</td>
-                <td data-label="Affilliation">Son of a High-Priest</td>
-                <td data-label="Life Status">Alive</td>
-              </tr>
-            </tbody>
-          </table>
-
-
-
-
-
-
-
-
-
-
-
+          </script>
           
-        </fieldset>
-    </form>
-</body>
-<footer>
+          <br><br><br>
+        <!---------------------------------------------------------------------------->
+        
+        </form>
+        <script>
+        function showSecondaryDropdown() {
+        document.getElementById("secondary-dropdown").style.display = "block";
+        }
+        
+        function hideSecondaryDropdown() {
+        document.getElementById("secondary-dropdown").style.display = "none";
+        }
+        </script><br><br>
+    </fieldset>
+</form>
+<script>
+  function addTableRow() {
+    var name = document.getElementById("nameInput").value;
+    var dimension = document.getElementById("dimensionInput").value;
+    var affiliation = document.getElementById("affiliationInput").value;
+    var lifeStatus = document.getElementById("lifeStatusInput").value;
 
+    // Check if any of the fields are empty
+    if (name === "" || dimension === "" || affiliation === "" || lifeStatus === "") {
+      alert("Please fill in all fields.");
+      return; // Exit the function if any field is empty
+    }
+
+    var table = document.getElementById("dataTableBody");
+
+    var newRow = table.insertRow();
+    var nameCell = newRow.insertCell();
+    var dimensionCell = newRow.insertCell();
+    var affiliationCell = newRow.insertCell();
+    var lifeStatusCell = newRow.insertCell();
+
+    nameCell.innerHTML = name;
+    dimensionCell.innerHTML = dimension;
+    affiliationCell.innerHTML = affiliation;
+    lifeStatusCell.innerHTML = lifeStatus;
+  }
+</script>
+</body>
+      <footer>
 </footer>
 </html>

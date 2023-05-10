@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/WebDev/Project9 - Test/test-FinalCSS.css">
+    <link rel="stylesheet" type="text/css" href="/WebDev/Project9 - Test/test-TableCSS.css">
+    <title>Document</title>
+</head>
+<header>
+    <nav>
+
+    </nav>
+</header>
+<body>
+    <form>
+        <fieldset>
+        <legend>Soul Contract - Cult of Cthulhu</legend>
+        
+        <label> Name :</label><br>
+        <input type="text" id="nameInput" placeholder="Input Name here." required> <br>
+        
+        <label> Dimension / Planet :</label><br>
+        <input type="text" id="dimensionInput" placeholder="Input Dimension / Planet here." required> <br>
+        
+        <label> Affiliation :</label><br>
+        <input type="text" id="affiliationInput" placeholder="Input Affiliation here." required> <br><br>
+        
+        <label> Life Status :</label><br>
+        <input type="text" id="lifeStatusInput" placeholder="Input Life Status here." required> <br><br>
+        
+        <br>
+        <button type="button" onclick="addTableRow()">Add</button>
+
+        <br>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Dimension / Planet</th>
+                    <th>Affiliation</th>
+                    <th>Life Status</th>
+                </tr>
+            </thead>
+            <tbody id="dataTableBody">
+                <tr>
+                    <td data-label="Name">Asmodeus Cruentus</td>
+                    <td data-label="Dimension / Planet">Earth</td>
+                    <td data-label="Affiliation">High-Priest of the Dreamer</td>
+                    <td data-label="Life Status">Alive</td>
+                </tr>
+                <tr>
+                    <td data-label="Name">Lady Melany</td>
+                    <td data-label="Dimension / Planet">Earth</td>
+                    <td data-label="Affiliation">Wife of High-Priest</td>
+                    <td data-label="Life Status">Alive</td>
+                </tr>
+                <tr>
+                    <td data-label="Name">Aría Lív</td>
+                    <td data-label="Dimension / Planet">Earth</td>
+                    <td data-label="Affiliation">Daughter of a High-Priest</td>
+                    <td data-label="Life Status">Alive</td>
+                </tr>
+                <tr>
+                    <td data-label="Name">Ástrós Alexstrasa</td>
+                    <td data-label="Dimension / Planet">Earth</td>
+                    <td data-label="Affiliation">Daughter of a High-Priest</td>
+                    <td data-label="Life Status">Alive</td>
+                </tr>
+                <tr>
+                    <td data-label="Name">Hrafntýr Myrki</td>
+                    <td data-label="Dimension / Planet">Earth</td>
+                    <td data-label="Affiliation">Son of a High-Priest</td>
+                    <td data-label="Life Status">Alive</td>
+                </tr>
+                <tr>
+                    <td data-label="Name">Bambi Þór</td>
+                    <td data-label="Dimension / Planet">Earth</td>
+                    <td data-label="Affiliation">Son of a High-Priest</td>
+                    <td data-label="Life Status">Alive</td>
+                </tr>
+            </tbody>
+        </table>
+        </fieldset>
+    </form>
+<script>
+    // Add a new row to the table with the user input
+    function addTableRow() {
+        var name = document.getElementById("nameInput").value;
+        var dimension = document.getElementById("dimensionInput").value;
+        var affiliation = document.getElementById("affiliationInput").value;
+        var lifeStatus = document.getElementById("lifeStatusInput").value;
+
+        var table = document.getElementById("dataTableBody");
+
+        var newRow = table.insertRow();
+        var nameCell = newRow.insertCell();
+        var dimensionCell = newRow.insertCell();
+        var affiliationCell = newRow.insertCell();
+        var lifeStatusCell = newRow.insertCell();
+
+        nameCell.innerHTML = name;
+        dimensionCell.innerHTML = dimension;
+        affiliationCell.innerHTML = affiliation;
+        lifeStatusCell.innerHTML = lifeStatus;
+    }
+</script>
+</body>
+<footer>
+
+</footer>
+</html>
